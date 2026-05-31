@@ -7,7 +7,7 @@ function App() {
   const [links, setLinks] = useState([]);
   const [error, setError] = useState('');
 
-  const BACKEND_URL = 'http://localhost:5000';
+  const BACKEND_URL = 'https://url-shortener-backend-ysangam45.onrender.com';
 
   // Fetch performance link records on application mount
   useEffect(() => {
